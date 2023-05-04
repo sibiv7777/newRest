@@ -25,6 +25,7 @@ public class DeleteAProduct extends Base{
 		respOnse("/data/19B");
 		JsonPath bo2= res.getBody().jsonPath();
 		System.out.println(bo2.getString("id"));
+		System.out.println(bo2.getString("first_name"));
 		namm="GET1";
 		System.out.println(respOnse("/data/21"));
 			
