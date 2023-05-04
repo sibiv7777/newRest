@@ -1,0 +1,9 @@
+23:05:49.502 [main] DEBUG BasePage.Base - This is debug log
+23:05:49.504 [main] INFO  BasePage.Base - This is info log
+23:05:49.505 [main] WARN  BasePage.Base - This is warn log
+23:05:49.505 [main] ERROR BasePage.Base - This is error log
+23:16:07.819 [main] DEBUG BasePage.Base - This is debug log
+23:16:07.820 [main] INFO  BasePage.Base - This is info log
+23:16:07.820 [main] WARN  BasePage.Base - This is warn log
+23:16:07.820 [main] ERROR BasePage.Base - This is error log
+23:20:56.999 [main] DEBUG BasePage.Base - This is debug log

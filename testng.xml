@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HybridRestAssuredProject">
+	<listeners>
+		<listener class-name="Utility.extentReports" />
+	</listeners>
+	<test name="startRestTest" thread-count="5">
+		<classes>
+			<class name="startRestTest.GetAll" />
+			<class name="startRestTest.GetAProduct" />
+			<class name="startRestTest.PostAProduct" />
+			<class name="startRestTest.DeleteAProduct" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

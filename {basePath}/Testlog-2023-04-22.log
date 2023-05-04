@@ -1,0 +1,7 @@
+22:46:39.072 [main] INFO  BasePage.Base - running step responseHeader, priority 2
+22:46:39.081 [main] INFO  BasePage.Base - running step response body, priority 3
+22:46:39.666 [main] INFO  BasePage.Base - first_name matches Lindsay
+22:47:07.938 [main] INFO  BasePage.Base - started the log
+22:47:09.283 [main] INFO  BasePage.Base - running step status code, priority 1
+22:47:09.289 [main] INFO  BasePage.Base - running step responseHeader, priority 2
+22:47:09.292 [main] INFO  BasePage.Base - running step response body, priority 3

@@ -1,0 +1,7 @@
+18:45:31.901 [TestNG-test=Test-4] INFO  BasePage.Base - running step response body, priority 3
+18:45:31.916 [TestNG-test=Test-4] INFO  BasePage.Base - running step responseHeader, priority 2
+23:15:39.517 [main] INFO  BasePage.Base - started the log
+23:15:41.312 [main] INFO  BasePage.Base - running step status code, priority 1
+23:15:41.324 [main] INFO  BasePage.Base - running step response body, priority 3
+23:15:41.970 [main] INFO  BasePage.Base - first_name matches Lindsay
+23:15:42.000 [main] INFO  BasePage.Base - running step responseHeader, priority 2

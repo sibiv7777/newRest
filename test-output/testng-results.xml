@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T18:14:04 CDT" name="Default suite" finished-at="2023-05-02T18:14:07 CDT" duration-ms="2347">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T18:14:04 CDT" name="Default test" finished-at="2023-05-02T18:14:07 CDT" duration-ms="2347">
+      <class name="startRestTest.DeleteAProduct">
+        <test-method is-config="true" signature="start()[pri:0, instance:startRestTest.DeleteAProduct@74bf1791]" started-at="2023-05-02T18:14:04 CDT" name="start" finished-at="2023-05-02T18:14:05 CDT" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="get_del()[pri:0, instance:startRestTest.DeleteAProduct@74bf1791]" started-at="2023-05-02T18:14:05 CDT" name="get_del" finished-at="2023-05-02T18:14:06 CDT" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_del -->
+      </class> <!-- startRestTest.DeleteAProduct -->
+      <class name="startRestTest.GetAll">
+        <test-method is-config="true" signature="start()[pri:0, instance:startRestTest.GetAll@68df9280]" started-at="2023-05-02T18:14:06 CDT" name="start" finished-at="2023-05-02T18:14:06 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="statusCode()[pri:1, instance:startRestTest.GetAll@68df9280]" started-at="2023-05-02T18:14:06 CDT" name="statusCode" finished-at="2023-05-02T18:14:06 CDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="responseBody()[pri:2, instance:startRestTest.GetAll@68df9280]" started-at="2023-05-02T18:14:06 CDT" name="responseBody" finished-at="2023-05-02T18:14:06 CDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBody -->
+        <test-method signature="responseHeader()[pri:3, instance:startRestTest.GetAll@68df9280]" started-at="2023-05-02T18:14:06 CDT" name="responseHeader" finished-at="2023-05-02T18:14:06 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseHeader -->
+      </class> <!-- startRestTest.GetAll -->
+      <class name="startRestTest.GetAProduct">
+        <test-method is-config="true" signature="start()[pri:0, instance:startRestTest.GetAProduct@479460a6]" started-at="2023-05-02T18:14:06 CDT" name="start" finished-at="2023-05-02T18:14:06 CDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="responseBody()[pri:0, instance:startRestTest.GetAProduct@479460a6]" started-at="2023-05-02T18:14:06 CDT" name="responseBody" finished-at="2023-05-02T18:14:06 CDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBody -->
+      </class> <!-- startRestTest.GetAProduct -->
+      <class name="startRestTest.PostAProduct">
+        <test-method is-config="true" signature="start()[pri:0, instance:startRestTest.PostAProduct@7164ca4c]" started-at="2023-05-02T18:14:06 CDT" name="start" finished-at="2023-05-02T18:14:06 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="postData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:startRestTest.PostAProduct@7164ca4c]" started-at="2023-05-02T18:14:06 CDT" name="postData" data-provider="ownData" finished-at="2023-05-02T18:14:06 CDT" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suresh@reqres.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method signature="postData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:startRestTest.PostAProduct@7164ca4c]" started-at="2023-05-02T18:14:06 CDT" name="postData" data-provider="ownData" finished-at="2023-05-02T18:14:06 CDT" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramesh@reqres.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CEO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method signature="postData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:startRestTest.PostAProduct@7164ca4c]" started-at="2023-05-02T18:14:06 CDT" name="postData" data-provider="ownData" finished-at="2023-05-02T18:14:07 CDT" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gopi@reqres.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method signature="getData()[pri:2, instance:startRestTest.PostAProduct@7164ca4c]" started-at="2023-05-02T18:14:07 CDT" name="getData" finished-at="2023-05-02T18:14:07 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- startRestTest.PostAProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

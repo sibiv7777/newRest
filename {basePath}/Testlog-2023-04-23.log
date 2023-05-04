@@ -1,0 +1,6 @@
+18:39:53.807 [TestNG-test=Test-4] INFO  BasePage.Base - running step response body, priority 3
+18:39:53.823 [TestNG-test=Test-4] INFO  BasePage.Base - running step responseHeader, priority 2
+18:43:10.444 [TestNG-test=Test(failed)-3] INFO  BasePage.Base - started the log
+18:43:11.659 [TestNG-test=Test(failed)-3] INFO  BasePage.Base - running step response body, priority 3
+18:43:11.663 [TestNG-test=Test(failed)-3] INFO  BasePage.Base - running step responseHeader, priority 2
+18:45:31.036 [TestNG-test=Test-4] INFO  BasePage.Base - started the log

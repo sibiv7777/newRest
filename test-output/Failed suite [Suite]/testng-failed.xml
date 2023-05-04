@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)(failed)">
+    <classes>
+      <class name="startRestTest.GetAProduct">
+        <methods>
+          <include name="start"/>
+          <include name="responseBody"/>
+        </methods>
+      </class> <!-- startRestTest.GetAProduct -->
+      <class name="startRestTest.DeleteAProduct">
+        <methods>
+          <include name="get_del"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- startRestTest.DeleteAProduct -->
+      <class name="startRestTest.GetAll">
+        <methods>
+          <include name="responseBody"/>
+          <include name="statusCode"/>
+          <include name="responseHeader"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- startRestTest.GetAll -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
